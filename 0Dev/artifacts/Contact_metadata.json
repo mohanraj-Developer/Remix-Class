@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_age",
+						"type": "uint8"
+					}
+				],
+				"name": "setAge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Class_Practice/integer.sol": "Contact"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Class_Practice/integer.sol": {
+			"keccak256": "0x72030276c8437c4661f7161bacbc85cde8fe6e710c5ec5c9f5faab20b0e2e645",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f1ec6eae65e5df1b62856da075cb6827701251facc72e9408622b65ddc46d960",
+				"dweb:/ipfs/QmcXwwPU7XS41dLiTjKASoX8Hw6LGH5skhxJegnn6c9xiy"
+			]
+		}
+	},
+	"version": 1
+}

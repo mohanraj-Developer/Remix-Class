@@ -77,6 +77,34 @@
 			},
 			{
 				"inputs": [],
+				"name": "getVaultDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getVaultStatus",
 				"outputs": [
 					{
@@ -247,11 +275,11 @@
 	},
 	"sources": {
 		"Class_3 (27.2.26)/1.DigitalVault.sol": {
-			"keccak256": "0x2d8baec7bd35184105dc414ba867e819f2f8016a8ff340b5c2cbaa5cd395a655",
+			"keccak256": "0x3904ac0a0ceaff80ae6a26f898ca6edba4432a49b7462fa37f9257c6f370c2b9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4fe70ad54e5c5a24864763474e8dafbd0d4be36c8ab2eb719b7f4858b6276e03",
-				"dweb:/ipfs/QmakaiLiM7U6p61fcu8AdzCf9eNmyqGvXWcEuXRg6Dw6L8"
+				"bzz-raw://5db1e8b0063d7d46ba02840acdb2235287181325fd6b2410d1f07a90570bdcba",
+				"dweb:/ipfs/QmQkwyLErsnaiEpPN2QGKo2yGb5LPcmEm8QYoq2JTS1w3T"
 			]
 		}
 	},

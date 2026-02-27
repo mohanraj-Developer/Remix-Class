@@ -59,5 +59,8 @@ contract DigitalVault{
      function getSecretByte(uint index) public view returns (bytes1) {
         require(index < secretCode.length, "Index out of bounds");
         return secretCode[index];
+    }
+    function getVaultDetails() public view returns(string memory, uint, int, bool){
+        return(ownerName, vaultBalance, netTranscation, isVaultOpen);
     }        
 }

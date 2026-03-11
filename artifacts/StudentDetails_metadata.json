@@ -1,0 +1,92 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStudentDetail",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "int256",
+						"name": "_id",
+						"type": "int256"
+					},
+					{
+						"internalType": "string",
+						"name": "_course",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_duration",
+						"type": "string"
+					}
+				],
+				"name": "setStudentDetail",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Class_4 (9.3.26)/structEg.sol": "StudentDetails"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Class_4 (9.3.26)/structEg.sol": {
+			"keccak256": "0x34ff26bbe2c9da8ee58b4e9d90fea3016221c855d4eae0c62bfba705e11d4eed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30b209f6d589a204035dd596cafe791730a31726a7fae74ee6534874888b6bb3",
+				"dweb:/ipfs/QmSL2sXTwNFDJdLuEvPQSB9rysq1ocnSCECUkmGgQNHefp"
+			]
+		}
+	},
+	"version": 1
+}

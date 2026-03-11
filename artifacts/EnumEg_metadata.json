@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "members",
+				"outputs": [
+					{
+						"internalType": "enum EnumEg.School",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setMembers",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Class_4 (9.3.26)/enumEg.sol": "EnumEg"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Class_4 (9.3.26)/enumEg.sol": {
+			"keccak256": "0xd9aba0242bab26865ce735ede86effa356d3f3bc673412162279d76e13168dc4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f84a7c17389adb5831cffde62c76f32a16c72f1e7781b12f035bce99bb3ce5a8",
+				"dweb:/ipfs/QmVPiwcBy8FisEyw6jaq78uGU3yAvUroz5CyhzsJkZiVRX"
+			]
+		}
+	},
+	"version": 1
+}

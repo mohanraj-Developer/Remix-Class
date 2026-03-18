@@ -6,9 +6,20 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getStudentDetail",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getDetails",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "string",
 						"name": "",
@@ -18,6 +29,11 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -26,27 +42,27 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
 						"internalType": "string",
 						"name": "_name",
 						"type": "string"
 					},
 					{
-						"internalType": "int256",
-						"name": "_id",
-						"type": "int256"
-					},
-					{
 						"internalType": "string",
-						"name": "_course",
+						"name": "_bio",
 						"type": "string"
 					},
 					{
-						"internalType": "string",
-						"name": "_duration",
-						"type": "string"
+						"internalType": "bool",
+						"name": "_checkup",
+						"type": "bool"
 					}
 				],
-				"name": "setStudentDetail",
+				"name": "setDetails",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +81,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Class_4 (9.3.26)/structEg.sol": "StudentDetails"
+			"class_7 (18.3.26)/patient_struct.sol": "PatientDetails"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -79,12 +95,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Class_4 (9.3.26)/structEg.sol": {
-			"keccak256": "0x34ff26bbe2c9da8ee58b4e9d90fea3016221c855d4eae0c62bfba705e11d4eed",
+		"class_7 (18.3.26)/patient_struct.sol": {
+			"keccak256": "0x8c6e013a93ff1514d480f7635ad3b6acb087450892a3b50cfe539e8bdcdb757a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://30b209f6d589a204035dd596cafe791730a31726a7fae74ee6534874888b6bb3",
-				"dweb:/ipfs/QmSL2sXTwNFDJdLuEvPQSB9rysq1ocnSCECUkmGgQNHefp"
+				"bzz-raw://a715c1938ea97c0f90fca3d5687a934ca933ad2a91a244778d0fa4b49b57ae98",
+				"dweb:/ipfs/QmeWCF2uZyGXMeH3Y6bSJkzbPWFsdyGCZVyQisAUaqDPbq"
 			]
 		}
 	},

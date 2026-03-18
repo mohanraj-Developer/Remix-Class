@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setApproved",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setPending",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setRejected",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Class_5 (13.3.26)/EnumEg.sol": "EnumExample1"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Class_5 (13.3.26)/EnumEg.sol": {
+			"keccak256": "0xa9c767c5599a8a66c8a1c3e874b231a34030cf8b8831e29fccef7385540d988e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bd1409a5683375d57ab4a41730cd55453989933770d40d1419b16e9dbfd30b6c",
+				"dweb:/ipfs/QmakGgWokqPUZEfbcAtwjDpXt8mjGT41wmobYzAsGusyan"
+			]
+		}
+	},
+	"version": 1
+}

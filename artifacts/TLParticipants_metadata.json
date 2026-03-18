@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_course",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_Phno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_fee",
+						"type": "bool"
+					}
+				],
+				"name": "AddMem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "key",
+						"type": "uint256"
+					}
+				],
+				"name": "getMem",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Class_5_6 (13 & 16.3.26)/mappingEg.sol": "TLParticipants"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Class_5_6 (13 & 16.3.26)/mappingEg.sol": {
+			"keccak256": "0x5d808a36c0ef28d1a421185b5dc008ef1539d3d2c75ad17b6bf1e88eacf7dde1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fcc33ff7eec7fb8a61949ad849eb4988b3aab3a153c4f4a978a548ef89c946e5",
+				"dweb:/ipfs/QmP2P6fFx9WYmGKYJ2CNbYcMEHNpNqSLb3pu4w6WHe72bn"
+			]
+		}
+	},
+	"version": 1
+}

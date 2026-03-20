@@ -6,6 +6,83 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "disease",
+						"type": "string"
+					}
+				],
+				"name": "PatientAdd",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "P1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "disease",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_disease",
+						"type": "string"
+					}
+				],
+				"name": "addPatient",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -29,76 +106,9 @@
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					},
-					{
-						"internalType": "enum PatientData.CheckupStatus",
-						"name": "",
-						"type": "uint8"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "patients",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "diseaseDescription",
-						"type": "string"
-					},
-					{
-						"internalType": "enum PatientData.CheckupStatus",
-						"name": "status",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_diseaseDescription",
-						"type": "string"
-					},
-					{
-						"internalType": "enum PatientData.CheckupStatus",
-						"name": "_status",
-						"type": "uint8"
-					}
-				],
-				"name": "setPatient",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -115,7 +125,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"class_7 (18.3.26)/PatientstructMappingEnum.sol": "PatientData"
+			"Class_8 (20.3.26)/PatientEventEmit.sol": "PatientData"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -129,12 +139,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"class_7 (18.3.26)/PatientstructMappingEnum.sol": {
-			"keccak256": "0x07b7af049c2eb939b66475e9acd84a3daaf68177b3f427ea9eec3b9badc46e02",
+		"Class_8 (20.3.26)/PatientEventEmit.sol": {
+			"keccak256": "0xa5d472b04b1fdced4fa2ca258489087de362fa01b0d6b91289c134152aa0e8a7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c7897c0878436813f14268f191d95ad706e39bd2655f2e4afd13a6d1bfc2d761",
-				"dweb:/ipfs/QmSi1UP4rRXPe6G557XkK5hMmcwtZu8vyZ7sxpu8GJ3taT"
+				"bzz-raw://002badbad3318c117b97df7c5e0694a5ad4bd8e2b1a68607d921da8d48384068",
+				"dweb:/ipfs/QmWy19RS8kwhcZwqY5B8QduofUaQZ3k5bTyC6LUrPiMp6e"
 			]
 		}
 	},
